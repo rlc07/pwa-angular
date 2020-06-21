@@ -1,0 +1,18 @@
+.example-icon {
+   padding: 0 14px;
+   color: #1E74FD;
+}
+  
+.example-spacer {
+    flex: 1 1 auto;
+}
+  
+.toolbar {
+    background-color: #1E74FD;
+}
+
+
+.icon-toolbar {
+    color: #ffffff;
+  }
+  
