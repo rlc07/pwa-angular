@@ -1,0 +1,23 @@
+.image-profile {
+    width: 100%;
+  }
+
+.image {
+    width: 5em;
+    height: 5em;
+    border-radius: 100%;
+}
+
+.grid {
+  width: 40% !important;
+}
+.grid-name {
+  left: 7em !important;;
+}
+
+#user-name {
+    color: white;
+    margin-left: 0em;
+    font-size: 1.5em;
+    text-align: left;
+}

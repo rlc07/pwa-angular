@@ -6,3 +6,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; background-
 .container {
    height: 100%;
 }
+
+.color-app {
+   background-color: #1E74FD;
+}
