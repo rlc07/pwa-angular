@@ -15,4 +15,11 @@
 .icon-toolbar {
     color: #ffffff;
   }
-  
+
+.menu {
+    margin: 0;
+}
+
+.title {
+    color: #ffffff;
+}
