@@ -9,6 +9,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatDividerModule} from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import {MatRippleModule} from '@angular/material/core';
+import { RouterModule } from '@angular/router';
 
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
@@ -27,7 +28,8 @@ import { MenuItemsComponent } from './sidbar/menu-items/menu-items.component';
     MatButtonModule,
     MatDividerModule,
     MatListModule,
-    MatRippleModule
+    MatRippleModule,
+    RouterModule
   ],
   exports: [HeaderComponent, FooterComponent, SidbarComponent],
 })
