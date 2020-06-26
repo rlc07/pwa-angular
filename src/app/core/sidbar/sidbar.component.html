@@ -1,18 +1,13 @@
 <mat-drawer-container class="example-container" autosize>
-    <mat-drawer #drawer class="example-sidenav" mode="over" >
-      <app-profile></app-profile>
-    
-     <p>Auto-resizing sidenav</p>
-      <p >Lorem, ipsum dolor sit amet consectetur.</p>
-      <button mat-raised-button>
-        Toggle extra text
-      </button> 
-    </mat-drawer>
-  
-    <app-header [drawer]="drawer"></app-header>
+  <mat-drawer #drawer class="example-sidenav" mode="over">
+    <app-profile></app-profile>
+    <app-menu-items></app-menu-items>
+  </mat-drawer>
 
-    <ng-content select=".content"></ng-content>
-    
-    <app-footer [drawer]="drawer" ></app-footer>
+  <app-header [drawer]="drawer"></app-header>
 
-  </mat-drawer-container>
+  <ng-content select=".content"></ng-content>
+
+  <app-footer [drawer]="drawer"></app-footer>
+
+</mat-drawer-container>
